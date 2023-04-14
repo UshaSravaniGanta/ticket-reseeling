@@ -7,6 +7,7 @@ function EventForm() {
     const [eventDescription, setEventDescription] = useState("");
     const [ticketPrice, setTicketPrice] = useState("");
     const [ticketQuantity, setTicketQuantity] = useState("");
+    const [searchQuery, setSearchQuery] = useState("");
 
     const handleSubmit = (event) => {
         event.preventDefault();
